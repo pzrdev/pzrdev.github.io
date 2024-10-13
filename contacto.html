@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto | Zurio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Zurio | Web Dev</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="ayuda.html">Programing help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+
+            <!-- Formulario de contacto -->
+            <form id="contact-form">
+                <input type="email" id="email" placeholder="Tu Gmail" required>
+                <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                <textarea id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zurio | Web Dev</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
